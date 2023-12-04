@@ -1,7 +1,7 @@
 use std::fs::{self};
 
 fn main() {
-    let file = "data.txt";
+    let file = "data/data.txt";
 
     let sum: u32 = fs::read_to_string(file)
         .unwrap()
